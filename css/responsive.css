@@ -1,0 +1,115 @@
+@media (max-width: 900px) {
+
+
+    .navbar {
+
+        padding: 0 5%;
+
+    }
+
+
+    .nav-links {
+
+        gap: 15px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 45px;
+
+    }
+
+
+    .platform-container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+    .event-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .team-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    .navbar {
+
+        flex-direction: column;
+
+        height: auto;
+
+        padding: 20px;
+
+        gap: 15px;
+
+    }
+
+
+    .nav-links {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .hero {
+
+        height: auto;
+
+        padding: 100px 20px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 35px;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 16px;
+
+    }
+
+
+    .platform-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .explore h2,
+    .about h2,
+    .events h2,
+    .team h2,
+    .contact h2 {
+
+        font-size: 35px;
+
+    }
+
+}
