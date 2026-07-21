@@ -123,6 +123,18 @@ body {
 
 }
 
+.hero h2 {
+
+    font-size: 28px;
+
+    font-weight: 500;
+
+    color: #C89B3C;
+
+    margin: 15px 0;
+
+}
+
 
 .hero-content p {
 
@@ -133,6 +145,7 @@ body {
     color: #AAB2C0;
 
 }
+
 
 
 .hero-btn {
