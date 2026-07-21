@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Scribbles</title>
+
+    <link rel="icon" href="../assets/logo/scribbles-logo.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <img src="../assets/logo/scribbles-logo.png">
+
+            <span>Scribbles</span>
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="../index.html">Home</a></li>
+
+            <li><a href="../creative-writing/index.html">Creative Writing</a></li>
+
+            <li><a href="../poetry/index.html">Poetry</a></li>
+
+            <li><a href="../word-games/index.html">Word Games</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="dashboard">
+
+    <div class="container">
+
+        <div class="dashboard-header">
+
+            <img id="userPhoto" class="dashboard-photo">
+
+            <div>
+
+                <h1>
+
+                    Welcome,
+
+                    <span id="userName">
+
+                        Loading...
+
+                    </span>
+
+                </h1>
+
+                <p id="userEmail"></p>
+
+            </div>
+
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2 id="storiesCount">0</h2>
+
+                <p>Stories</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2 id="poemsCount">0</h2>
+
+                <p>Poems</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2 id="likesCount">0</h2>
+
+                <p>Likes</p>
+
+            </div>
+
+        </div>
+
+        <div class="dashboard-actions">
+
+            <a href="../creative-writing/index.html" class="btn btn-primary">
+
+                Creative Writing
+
+            </a>
+
+            <a href="../poetry/index.html" class="btn hero-secondary">
+
+                Poetry
+
+            </a>
+
+            <a href="../word-games/index.html" class="btn hero-secondary">
+
+                Word Games
+
+            </a>
+
+            <button id="logoutBtn" class="btn btn-danger">
+                🚪 Logout
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script type="module" src="../js/dashboard.js"></script>
+
+</body>
+
+</html>
